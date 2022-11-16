@@ -230,7 +230,7 @@ nav ul {
 }
 
 h1 {
-	font-family: 'Aboreto', cursive;
+	font-family: 'Aboreto', cursive, Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-size: 32px;
 	font-weight: bold;
@@ -239,14 +239,20 @@ h1 {
 	padding-bottom: 32px;
 	color: #F9E9C8;
 	text-decoration: none;
+	display: block;
 }
 
-h1 a{
+h1 a:visited {
+	text-decoration: none;
+	color: #F9E9C8;
+}
+
+a {
 	text-decoration: none;
 }
 
 h2 {
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
 	color: #272c31;
 	font-size: 48px;
 	padding-top: 16px;
@@ -256,7 +262,7 @@ h2 {
 
 
 h3 {
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 32px;
@@ -266,7 +272,7 @@ h3 {
 }
 
 p {
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	padding-bottom: 16px;
 	line-height: 22px;
@@ -380,7 +386,7 @@ fieldset {
 
 label,
 fieldset {
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
 	color: #e19728;
 	padding-top: 16px;
 	padding-bottom: 8px;
@@ -411,8 +417,6 @@ input[type=submit] {
 	border-radius: 32px;
 	border-width: 2px;
 	border-color: #F9E9C8;
-
-
 }
 
 input[type=submit]:hover {
