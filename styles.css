@@ -150,6 +150,10 @@ main {
 	background-color: #272c31;
 }
 
+img{
+	display: block;
+}
+
 footer {
 	color: black;
 	background-color: #bdb39e;
@@ -245,6 +249,7 @@ h1 {
 h1 a:visited {
 	text-decoration: none;
 	color: #F9E9C8;
+	font-family: 'Aboreto', cursive, Arial, Helvetica, sans-serif;
 }
 
 a {
